@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>styling </title>
+<link rel="stylesheet" href="syc.css">
+</head>
+
+<body>
+<section>
+  <div class="container">
+    <nav>
+      <h1> styclo </h1>
+      <ul>
+         <li><a href="">Women</a></li>
+         <li><a href="">Men</a></li>
+         <li><a href="">Trendy</a></li>
+         <li><a href="">Fabric</a></li>
+         <li><a href="abtp.html">About</a></li>
+      </ul>
+</nav>
+<div class="article">
+   <h1> Let's REVAMP your closet </h1>
+<p> custom-tailored clothes </p>
+<a href=""class="btn">Shop now</a>
+</div>
+</div>
+</section>
+
+</body>
+</html>
+
+
+
+
+#CSS
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+section{
+min-height: 100vh;
+background-image: url("https://wallpapercave.com/wp/mtaUQaL.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.container{
+width:85%;
+margin:auto;
+}
+
+nav{
+height:80px;
+}
+
+nav h1{
+float:left;
+line-height:80px;
+font-size:inline;
+font-size:25px;
+color:burlywood;
+}
+
+nav ul{
+float:right;
+line-height:80px;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+padding:0px 5px;
+}
+
+nav ul li a{
+color: burlywood;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 5px;
+padding:7px 8px
+}
+
+nav ul li a:hover{
+background-color: grey;
+transition: 0.5s ease;
+}
+
+.article{
+width:50%;
+margin:auto;
+text-align:left;
+transform:translateY(25vh);
+}
+
+.article h1{
+font-size: 36px;
+color: gainsboro;
+letter-spacing: 1.5px;
+font-weight: 800;
+margin-bottom: 3px;
+}
+
+.article p{
+font-size: 18px;
+color: lightgray;
+line-height: 0.5;
+margin-bottom: 50px;
+}
+
+.article .btn{
+color: white;
+padding: 12px 25px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+text-decoration: none;
+background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
