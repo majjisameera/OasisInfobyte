@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="your_image.jpg" alt="Your Name">
+            <h1>Sameera Majji</h1>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: majjisameera847@gmail.com</p>
+            <p>LinkedIn: linkedin.com/in/sameeramajji</p>
+            <p>GitHub: github.com/sameeramajji</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Photography</li>
+
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Recent work</h2>
+<ul> <li>1. Creating an responsive landing page </li>
+<li>2. Stopwatch which counts no.of laps, time etc </li>
+<li>3. A shopping website </li> 
+            <!-- Add your project samples here -->
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+           <p> <a href="">Check this out </a> </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+#CSS
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#contact, #skills, #portfolio, #resume {
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
